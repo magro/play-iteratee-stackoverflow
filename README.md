@@ -1,4 +1,4 @@
-# Sample to demo a StackOverflowError with Play Framework Iteratees
+# StackOverflowError with WS consumer Iteratee and large stream
 
 The goal is to have a WS consume function that can handle a large multipart document.
 The multipart parser is based on Play's [multipart BodyParser](https://github.com/playframework/playframework/blob/92078f9cc751a5c19117dede18c7ca63aca73347/framework/src/play/src/main/scala/play/api/mvc/ContentTypes.scala#L615)
